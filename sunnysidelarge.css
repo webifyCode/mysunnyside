@@ -1,0 +1,217 @@
+@media (min-width:1200px) {
+
+/***GENERAL***/
+
+  h2 {
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+/***HEADER & NAVIGATION***/
+
+  nav {
+    padding: 2em 2em;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #top p {
+    font-size: 58px;
+  }
+
+  #arrowDown {
+    padding-bottom: 25%;
+  }
+  .headerImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left:0;
+  }
+
+/***NAVIGATION MENU***/
+
+  #navlist {
+    position: unset;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    width: 45%;
+  }
+
+  #navlist li {
+    padding: 0;
+    margin: 0 1em;
+    transition: all 200ms ease-in 50ms;
+    display: inline;
+  }
+  
+  #navlist a:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #navlist a:active {
+    background: rgba(255, 255, 255, 0.26);
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  #navlist a {
+    margin: 1em;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  #close {
+    display: none;
+  }
+
+/***MAIN CONTENT***/
+  
+  #one, #two, #three {
+    display: flex;
+  }
+  
+  #one {
+    flex-direction: row-reverse;
+  }
+
+  #egg, #transform, #cup, #stand, #graphic, #photography{
+    display: inline;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #transform, #stand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #transform > span, #stand > span {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20%;
+  }
+
+  #graphic_text, #photography_text {
+    padding: 5% 20%;
+  }
+  
+  #photography h2, #graphic h2 {
+    font-size: 30px;
+    opacity: 70%;
+  }
+
+  #graphic_text p, #photography_text p {
+    margin-bottom: 0.5em; 
+  }
+
+/**learn more**/
+
+  div.learn_more {
+    padding: 0;
+    width: auto;
+  }
+
+  #transform div.learn_more a {
+    box-shadow: inset 0px -12px 5px -5px rgba(255, 255, 0, 0.322);
+  }
+
+  #stand div.learn_more a {
+    box-shadow: inset 0px -12px 5px -5px rgba(255, 0, 0, 0.150);
+  }
+
+/***CLIENT TESTIMONIALS***/
+  
+  #testimonials {
+    text-align: center;
+    margin-top: 3em;
+    line-height: 3rem;
+    padding: 10%;
+  }
+
+  #testimony {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  #emily, #jennie, #thomas {
+   line-height: 2rem;
+  }
+
+  .witness {
+    margin:0;
+    display: block;
+    border: 0.5px solid grey;
+    border-radius: 50%;
+    width: 20%;
+  }
+  div.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 3em;
+  }
+  div.position {
+    font-size: 15px;
+    padding-top: 1em;
+    color: grey;
+  }
+
+  h2.testimonials {
+    font-size: 30px;
+    color: grey;
+  }
+  
+/***COLLAGE/ BOTTOM PICTURES***/
+
+  #collage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  
+  #collage > picture {
+    width: 25%;
+  }
+  
+/***FOOTER***/
+  
+  div#footerlinkbox {
+    font-size: 18px;
+    padding: 0 38%;
+  }
+
+  #contacts img {
+    cursor: pointer;
+    margin: 1%;
+  }
+
+}
+
+
+
+@media (min-width: 1400px) {
+
+  p, div.position, #navlist ul a, #footerlinkbox a {
+    font-size: 18px;
+  }
+
+}
