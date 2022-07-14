@@ -101,7 +101,7 @@
     align-items: center;
   }
 
-  #transform > span, #stand > span {
+  #transform > div, #stand > div {
     text-align: left;
     display: flex;
     flex-direction: column;
