@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://5esrious5am.github.io/mysunnyside]
+- Live Site URL: [https://webifyCode.github.io/mysunnyside]
 
 ## My Process
 
@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [@5erious5am](https://github.com/5erious5am)
+- Website - [@webifyCode](https://github.com/webifyCode)
 - Frontend Mentor - [@5erious5am](https://www.frontendmentor.io/profile/5erious5am)
